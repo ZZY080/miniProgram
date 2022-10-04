@@ -1,0 +1,11 @@
+<view class="top-tab flex-wrp flex-tab " >
+  <view class="toptab flex-item active" >
+  收支概况
+  </view>
+  <view class="toptab flex-item " >
+  流水明细
+  </view>
+  <view class="toptab flex-item " >
+  账单管理
+  </view>
+</view>
