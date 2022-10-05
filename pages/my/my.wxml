@@ -1,5 +1,5 @@
 <view class="container more">
-    <view class="user flex-wrp" bindtap="goadmin">
+    <view class="user flex-wrp">
     <view class="avatar flex-item">
       <image class="userinfo-avatar" src="../../images/icon1.jpeg" background-size="cover"></image>
     </view>
@@ -9,8 +9,8 @@
     </view>
   </view>
   <view class="my">
-    <view class="my-item flex-wrp">
-      <view class="myitem-icon flex-item" >
+    <view class="my-item flex-wrp" bindtap="gobalance">
+      <view class="myitem-icon flex-item">
         <image src="../../images/money.png"></image>
       </view>
       <view class="myitem-name flex-item">
@@ -20,7 +20,7 @@
         <image src="../../images/jiantou.png"></image>
       </view>
     </view>
-    <view class="my-item flex-wrp">
+    <view class="my-item flex-wrp" bindtap="goBank">
       <view class="myitem-icon flex-item" >
         <image src="../../images/cards.png"></image>
       </view>
@@ -53,7 +53,7 @@
         <image src="../../images/jiantou.png"></image>
       </view>
     </view>
-    <view class="my-item flex-wrp">
+    <view class="my-item flex-wrp" bindtap="goSetting">
       <view class="myitem-icon flex-item" >
         <image src="../../images/设置.png"></image>
       </view>

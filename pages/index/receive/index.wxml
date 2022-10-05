@@ -1,0 +1,26 @@
+<!--pages/index/receive/index.wxml-->
+<view class="container">
+    <view class="blank-box">
+        <view class="white-box">
+            <view class="box-text">
+                <text class="box-text-item">二维码收款</text>
+            </view>
+            <view class="box-image">
+                <image src="../../../images/二维码.png"></image>
+            </view>
+            <view class="box-button">
+                <view class="button-one">
+                    <button type='warn'>设置收款金额</button>
+                </view>
+                <view class="button-two">
+                    <button type="primary">保存收款码</button>
+                </view>
+            </view>
+            <view class="box-bar">
+                <image src="../../../images/index.png" ></image>
+                <view class="box-bar-text">查看账单记录</view>
+                <image src="../../../images/jiantou.png"></image>
+            </view>
+        </view>
+    </view>
+</view>

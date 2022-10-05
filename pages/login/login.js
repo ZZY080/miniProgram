@@ -1,12 +1,14 @@
-// pages/my/my.js
+// pages/login/login.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        currentIndex:0
-    },
+        username: '',
+        password: '',
+        clientHeight:''
+      },
 
     /**
      * 生命周期函数--监听页面加载
@@ -63,19 +65,21 @@ Page({
     onShareAppMessage() {
 
     },
-    gobalance(){
-        wx.navigateTo({
-          url: "../my/balance/index",
+    goadmin(){
+        wx.request({
+          url: 'http://39.98.123.211:8510/admin/product/test/read',
+          method:"get",
+          data:{
+            "name":"james",
+            "password":"123456"
+          },
+          success: function (res) {
+            console.log(res.data);
+            wx.switchTab({
+            url: "../index/index"
+                })
+            },
         })
-    },
-    goSetting(){
-        wx.navigateTo({
-          url: '../my/setting/index',
-        })
-    },
-    goBank(){
-        wx.navigateTo({
-          url: '../my/bank/index',
-        })
+        
     }
 })

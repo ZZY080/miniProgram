@@ -1,11 +1,11 @@
-// pages/my/my.js
+// pages/my/balance/index.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        currentIndex:0
+
     },
 
     /**
@@ -63,19 +63,7 @@ Page({
     onShareAppMessage() {
 
     },
-    gobalance(){
-        wx.navigateTo({
-          url: "../my/balance/index",
-        })
-    },
-    goSetting(){
-        wx.navigateTo({
-          url: '../my/setting/index',
-        })
-    },
-    goBank(){
-        wx.navigateTo({
-          url: '../my/bank/index',
-        })
+    goback(){
+        wx.navigateBack({})
     }
 })

@@ -62,5 +62,23 @@ Page({
      */
     onShareAppMessage() {
 
+    },
+    goPay(){
+        wx.navigateTo({
+          url: '../index/pay/index',
+        })
+    },
+    // 扫一扫功能
+    saoyisao(){
+        wx.scanCode({
+            success (res) {
+              console.log(111)
+            }
+          })
+    },
+    goReceive(){
+        wx.navigateTo({
+          url: '../index/receive/index',
+        })
     }
 })

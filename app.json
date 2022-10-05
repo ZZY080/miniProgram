@@ -1,10 +1,15 @@
 {
     "pages": [
+        "pages/login/login",
         "pages/index/index",
         "pages/logs/logs",
         "pages/news/news",
         "pages/my/my",
-        "pages/my/login/login"
+        "pages/my/balance/index",
+        "pages/index/pay/index",
+        "pages/my/setting/index",
+        "pages/my/bank/index",
+        "pages/index/receive/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -25,7 +30,7 @@
                 "selectedIconPath": "images/index_focus.png"
             },
             {
-                "pagePath":"pages/news/news",
+                "pagePath": "pages/news/news",
                 "text": "账单",
                 "iconPath": "images/list-shadow.png",
                 "selectedIconPath": "images/list.png"
