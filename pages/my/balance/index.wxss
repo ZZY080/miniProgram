@@ -1,0 +1,41 @@
+/* pages/my/balance/index.wxss */
+
+.topbar{
+    display: flex;
+    width: 95%;
+    height: 100rpx;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.topbar image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.topbar .topbar-text{
+    line-height: 100rpx;
+    font-size: 60rpx;
+}
+
+.body .body-primary{
+    display: flex;
+    margin-top: 100rpx;
+    height: 600rpx;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.body .body-primary image{
+    width: 200rpx;
+    height: 200rpx;
+    margin: 0 100rpx;
+}
+.body .body-primary-text{
+    font-size: 160rpx;
+}
+.body .body-button{
+    width: 50%;
+    margin: 0 auto;
+}
+.body .body-button button{
+    margin-top: 30rpx;
+}

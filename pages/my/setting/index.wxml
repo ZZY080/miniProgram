@@ -1,0 +1,35 @@
+<view class="">
+    <view class="topbar">
+        <text class="topbar-text">设置</text>
+    </view>
+    <view class="middle">
+        <view class="middle-item">
+            <view class="item-top">支付设置</view>
+            <view class="item-selection">
+                <view class="item-selection-index">扣款顺序</view>
+                <button>更改</button>
+            </view>
+            <view class="item-selection">
+                <view class="item-selection-index">免密支付</view>
+                <button>更改</button>
+            </view>
+        </view>
+        <view class="middle-item">
+            <view class="item-top">通用设置</view>
+            <view class="item-selection">
+                <view class="item-selection-index">多语言</view>
+                <view class="item-selection-glow">简体中文</view>
+                <button>修改</button>
+            </view>
+            <view class="item-selection">
+                <view class="item-selection-index">字体大小</view>
+                <view class="item-selection-glow">标准</view>
+                <button>修改</button>
+            </view>
+        </view>
+    </view>
+    <view class="buttom">
+        <view class="buttom-text">登陆其他账号</view>
+        <view class="buttom-text">退出登录</view>
+    </view>
+</view>

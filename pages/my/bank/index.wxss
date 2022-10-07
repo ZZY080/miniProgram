@@ -1,0 +1,83 @@
+page{
+    width: 100%;
+    height: 100%;
+}
+.green-blank{
+    width: 100%;
+    height: 35%;
+    background-color: green;
+}
+.green-blank-text{
+    color: #fff;
+    font-size: 50rpx;
+    display: flex;
+    justify-content: center;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+}
+
+.white-blank{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 200%;
+    background-color: #fff;
+    border-radius: 15rpx;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.color-blue-bank{
+    margin-top: 30rpx;
+    width: 90%;
+    height:24%;
+    background-color: blue;
+    border-radius: 15rpx;
+    
+}
+.color-red-bank{
+    width: 90%;
+    height:24%;
+    background-color: red;
+    border-radius: 15rpx;
+}
+.color-orange-bank{
+    width: 90%;
+    height:24%;
+    background-color: orange;
+    border-radius: 15rpx;
+}
+.first-item{
+    display: flex;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 20rpx;
+}
+
+.icon-flag{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 100rpx;
+    margin-left: 30rpx;
+    margin-right: 20rpx;
+}
+.somebank{
+    font-size: 60rpx;
+    margin-right: 30rpx;
+    color: #fff;
+}
+.otherbank{
+    font-size: 35rpx;
+    padding-top:10rpx;
+    color: #fff;
+}
+
+
+.second-item{
+    margin: 10rpx 0 0 145rpx;
+}
+
+.second-text{
+    font-size: 40rpx;
+    color: #fff;
+}

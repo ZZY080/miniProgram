@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/news/news",
+        "pages/my/my",
+        "pages/my/balance/index",
+        "pages/index/pay/index",
+        "pages/my/setting/index",
+        "pages/my/bank/index",
+        "pages/index/receive/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Creative Pay",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#626567",
+        "selectedColor": "#2A8CE5",
+        "backgroundColor": "#FBFBFB",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath": "images/index.png",
+                "selectedIconPath": "images/index_focus.png"
+            },
+            {
+                "pagePath": "pages/news/news",
+                "text": "账单",
+                "iconPath": "images/list-shadow.png",
+                "selectedIconPath": "images/list.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "images/myself.png",
+                "selectedIconPath": "images/admin.png"
+            }
+        ]
+    }
+}

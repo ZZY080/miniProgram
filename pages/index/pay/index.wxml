@@ -1,0 +1,16 @@
+
+<view class="container">
+    <view class="pay">
+        <view class="pay-box">
+            <view class="pay-box-top">
+                <image src="../../../images/已勾选40.png"></image>
+                <view class="pay-box-top-text">向商家付款</view>
+                <view class="dot">更多</view>
+            </view>
+            <view class="qrcode">
+                <image src="../../../images/二维码.png"></image>
+            </view>
+            
+        </view>
+    </view>
+</view>

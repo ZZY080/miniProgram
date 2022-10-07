@@ -1,0 +1,17 @@
+<!--pages/my/balance/index.wxml-->
+<view class="container">
+    <!-- <view class="topbar">
+        <image src="../../../images/返回箭头.png" bindtap="goback"></image>
+        <view class="topbar-text">零钱明细</view>
+    </view> -->
+    <view class="body">
+        <view class="body-primary">
+            <image src="../../../images/money.png"></image>
+            <view class="body-primary-text">$11225</view>
+        </view>
+        <view class="body-button">
+            <button type="primary">提现</button>
+            <button>充值</button>
+        </view>
+    </view>
+</view>

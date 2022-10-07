@@ -1,0 +1,43 @@
+<!--pages/my/bank/index.wxml-->
+<view class="container">
+    <view class="green-blank">
+        <view class="green-blank-text">我的银行卡</view>
+        <view class="white-blank">
+            <view class="color-blue-bank">
+                <view class="first-item">
+                    <image src="../../../images/icon1.jpeg" class="icon-flag"></image>
+                    <view class="somebank">XX银行</view>
+                    <view class="otherbank">储蓄卡</view>
+                </view>
+                <view class="second-item">
+                    <view class="second-text">**** **** **** 1234</view>
+                </view>
+            </view>
+            <view class="color-red-bank">
+                <view class="first-item">
+                    <image src="../../../images/icon1.jpeg" class="icon-flag"></image>
+                    <view class="somebank">XX银行</view>
+                    <view class="otherbank">储蓄卡</view>
+                </view>
+                <view class="second-item">
+                    <view class="second-text">**** **** **** 1234</view>
+                </view>
+            </view>
+            <view class="color-orange-bank">
+                <view class="first-item">
+                    <image src="../../../images/icon1.jpeg" class="icon-flag"></image>
+                    <view class="somebank">XX银行</view>
+                    <view class="otherbank">储蓄卡</view>
+                </view>
+                <view class="second-item">
+                    <view class="second-text">**** **** **** 1234</view>
+                </view>
+            </view>
+            <view class="button-item">
+                <button>查看全部银行卡</button>
+            </view>
+            
+        </view>
+    </view>
+    
+</view>

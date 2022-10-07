@@ -1,0 +1,71 @@
+/* pages/index/receive/index.wxss */
+page{
+    height: 100%;
+    
+}
+.blank-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 157, 66);
+}
+
+.white-box{
+    display: flex;
+    margin: 80rpx auto 0 auto;
+    border-radius: 15rpx;
+    width:85%;
+    height:80%;
+    background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.white-box .box-text{
+    margin-top: 50rpx;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.white-box .box-text .box-text-item{
+    font-size: 45rpx;
+    font-weight: 600;
+}
+
+.box-image image{
+    width: 400rpx;
+    height: 400rpx;
+}
+
+.box-button{
+    display: flex;
+}
+.box-button button{
+    font-size: 35rpx;
+}
+.box-button .button-one{
+    width: 270rpx;
+    margin-right: 20rpx;
+    
+}
+.button-two{
+    width: 270rpx;
+}
+
+
+.box-bar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40rpx;
+    line-height: 100rpx;
+}
+.box-bar image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.box-bar-text{
+    margin-left: 20rpx;
+    font-size: 45rpx;
+    font-weight: 600;
+
+}
