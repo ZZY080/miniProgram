@@ -5,27 +5,27 @@
     <view class="content">
         <view class="content-text">
             <view class="content-text-flag">
-                <image src="../../images/喇叭.png" class="content-text-flag-image"></image>
+                <image src="/images/laba.png" class="content-text-flag-image"></image>
             </view>
             <view class="content-text-item">早上好！</view>
             <view class="content-text-item">今天是2022年9月30日 农历九月初五</view>
         </view>
         <view class="box">
             <view class="box-item" bindtap="saoyisao">
-                <image src="../../images/扫一扫.png"></image>
+                <image src="/images/scan.png"></image>
                 <view class="box-item-text">扫一扫</view>
             </view>
             <view class="box-item" bindtap="goPay">
-                <image src="../../images/二维码.png"></image>
+                <image src="/images/qrcode.png"></image>
                 <view class="box-item-text">支付</view>
             </view>
             <view class="box-item" bindtap="goReceive">
-                <image src="../../images/收款认领.png"></image>
+                <image src="/images/getMoney.png"></image>
                 <view class="box-item-text">收款</view>
             </view>
-            <view class="box-item">
-                <image src="../../images/充值流量.png"></image>
-                <view class="box-item-text">充值</view>
+            <view class="box-item" bindtap="goAddMoney">
+                <image src="/images/chongzhi.png"></image>
+                <view class="box-item-text" >充值</view>
             </view>
         </view>
     </view>

@@ -9,7 +9,13 @@
         "pages/index/pay/index",
         "pages/my/setting/index",
         "pages/my/bank/index",
-        "pages/index/receive/index"
+        "pages/index/receive/index",
+        "pages/index/receive/receiveMoney/index",
+        "pages/my/safe/index",
+        "pages/my/person/index",
+        "pages/register/index",
+        "pages/my/balance/addmoney/index",
+        "pages/my/payment/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

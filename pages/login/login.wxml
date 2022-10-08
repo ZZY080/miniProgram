@@ -8,17 +8,18 @@
      <!-- 手机号 -->
      <view class="phoneCs">
        <!-- <image src="/images/zhang.png" class="ph"></image> -->
-       <input placeholder="请输入账号" type="number" bindinput="content" />
+       <input placeholder="请输入账号" type="text" bindinput="content" model:value="{{username}}" bindinput="getUsernameInput"/>
      </view>
      <!-- 密码 -->
      <view class=passwordCs">
        <!-- <image src="/images/mi.png" class="ps"></image> -->
-       <input placeholder="请输入密码" type="password" bindinput="password" />
+       <input placeholder="请输入密码" type="password"  model:value="{{password}}" bindinput="getPasswordInput"/>
      </view>
      <!-- 登录按钮 -->
      <view class="denglu">
-       <button class="btn-dl" type="primary" bindtap="goadmin">登录</button>
+       <button class="btn-dl" type="primary" bindtap="goadmin">登录</button> 
      </view>
    </view>
+        <view class="click-register" bindtap="goRegister">没有账号，点击注册</view>
  </view>
 

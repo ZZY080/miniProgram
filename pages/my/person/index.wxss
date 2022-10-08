@@ -23,6 +23,7 @@ page{
 }
 .middle-item{
     margin-left: 20rpx;
+    margin-bottom: 50rpx;
 }
 .item-top{
     font-size: 60rpx;
@@ -42,15 +43,27 @@ page{
 }
 .item-selection-index{
     font-size: 70rpx;
-    line-height:70rpx;
+    line-height:80rpx;
+    margin-bottom: 20rpx;
 }
+.item-selection image{
+    margin-left: 330rpx;
+    width: 90rpx;
+    height: 90rpx;
+}
+
 .item-selection-glow{
-    margin-left: 100rpx;
+    margin-left: 30rpx;
+    font-size: 60rpx;
+    color:grey;
+}
+.item-selection-glow-two{
+    margin-left: 250rpx;
     font-size: 60rpx;
     color:grey;
 }
 .item-selection button{
-    margin: 0;
+    margin-top: 5rpx;
     margin-right: 20rpx;
 }
 

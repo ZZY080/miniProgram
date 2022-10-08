@@ -80,5 +80,10 @@ Page({
         wx.navigateTo({
           url: '../index/receive/index',
         })
+    },
+    goAddMoney(){
+        wx.navigateTo({
+          url: '../my/balance/addmoney/index',
+        })
     }
 })

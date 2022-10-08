@@ -1,0 +1,20 @@
+<!--pages/index/receive/receiveMoney/index.wxml-->
+<view class="container">
+    <view class="blank-box">
+        <view class="white-box">
+            <view class="first-text">
+                <view class="text-item">设置收款金额</view>
+            </view>
+            <view class="second-text">
+                <view class="goat">￥</view>
+                <view class="item-input">
+                    <input type="number"  class="inputtext"/>
+                </view>
+            </view>
+        </view>
+        <view class="last-button">
+            <button type="primary">确定</button>
+        </view>
+    </view>
+    
+</view>

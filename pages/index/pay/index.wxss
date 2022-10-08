@@ -13,22 +13,19 @@ page{
     background-color: #fff;
     margin: 50rpx auto;
     border-radius: 15rpx;
+    padding-bottom: 50rpx;
 }
 .pay .pay-box-top{
     display: flex;
     width: 100%;
     height: 100rpx;
     line-height: 100rpx;
-    background-color:#DCDCDC;
     border-top-left-radius: 15rpx;
     border-top-right-radius: 15rpx;
     color: #27B864;
+    justify-content: center;
 }
-.pay .pay-box-top image{
-    width: 50rpx;
-    height: 50rpx;
-    margin: 25rpx;
-}
+
 .pay-box-top-text{
     font-size: 45rpx;
 }
@@ -48,3 +45,23 @@ page{
     width: 500rpx;
     height: 500rpx;
 }
+
+.tab-item{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.tab-item image{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.text-top{
+    font-size: 50rpx;
+}
+.text-buttom{
+    color:#5b6b73;
+}
+

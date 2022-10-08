@@ -1,4 +1,4 @@
-// pages/my/bank/index.js
+// pages/my/person/index.js
 Page({
 
     /**
@@ -7,15 +7,16 @@ Page({
     data: {
         avatar:''
     },
-    onShow() {
+    //获取头像
+    onShow:function(){
         let that = this;
         wx.getStorage({
             key:'avatar',
             success(res){
-                that.setData({
-                    avatar:res.data
-                })
+               that.setData({
+                   avatar:res.data
+               })
             }
         })
-    }
+    },
 })

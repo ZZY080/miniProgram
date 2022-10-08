@@ -1,0 +1,51 @@
+<view class="">
+    <view class="topbar">
+        <text class="topbar-text">个人信息</text>
+    </view>
+    <view class="middle">
+        <view class="middle-item">
+            <view class="item-selection">
+                <view class="item-selection-index">头像</view>
+                <image src='{{avatar}}'></image>
+                <view class="type-button">
+                    <button>更改</button>
+                </view>
+            </view>
+            <view class="item-selection">
+                <view class="item-selection-index">姓名</view>
+                <view class="item-selection-glow-two">吴彦祖</view>
+                <view class="type-button">
+                    <button>更改</button>
+                </view>
+            </view>
+            <view class="item-selection">
+                <view class="item-selection-index">手机号</view>
+                <view class="item-selection-glow">138******25</view>
+                <view class="type-button">
+                    <button>更改</button>
+                </view>
+            </view>
+
+        </view>
+        <view class="middle-item">
+            <view class="item-top">身份信息</view>
+            <view class="item-selection">
+                <view class="item-selection-index">实名认证</view>
+                <view class="type-button">
+                    <button>更新</button>
+                </view>
+            </view>
+        </view>
+        <view class="middle-item">
+            <view class="item-top">银行卡</view>
+            <view class="item-selection">
+                <view class="item-selection-index">已绑定银行卡</view>
+                <view class="type-button">
+                    <button>查看</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+

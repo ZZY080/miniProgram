@@ -1,41 +1,127 @@
-/* pages/my/balance/index.wxss */
-
-.topbar{
-    display: flex;
-    width: 95%;
-    height: 100rpx;
-    justify-content: space-between;
-    margin:0 auto;
-}
-.topbar image{
-    width: 100rpx;
-    height: 100rpx;
-}
-.topbar .topbar-text{
-    line-height: 100rpx;
-    font-size: 60rpx;
-}
-
-.body .body-primary{
-    display: flex;
-    margin-top: 100rpx;
-    height: 600rpx;
+page{
     width: 100%;
+    height: 100%;
+}
+.green-blank{
+    width: 100%;
+    height: 35%;
+    background-color:rgb(39, 184, 100);
+}
+.green-blank-text{
+    color: #fff;
+    font-size: 50rpx;
+    display: flex;
     justify-content: center;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+}
+
+.white-blank{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 120%;
+    background-color: #fff;
+    border-radius: 15rpx;
     flex-wrap: wrap;
+    justify-content: center;
+    border:1px solid rgb(240, 238, 238)
 }
-.body .body-primary image{
+
+.top-item{
+    margin-top: 40rpx;
+    width: 100%;
+    display: flex;
+    height: 100rpx;
+    justify-content: center;
+}
+.top-item .top-item-text{
+    font-size: 50rpx;
+    line-height: 100rpx;
+}
+.top-item image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-top: 25rpx;
+    margin-left: 15rpx;
+}
+.middle-item{
+    width: 100%;
+    text-align: center;
+    font-size: 80rpx;
+    font-weight: bold;
+}
+
+.buttom{
+    display: flex;
+}
+
+.submit{
     width: 200rpx;
-    height: 200rpx;
-    margin: 0 100rpx;
+    margin-right:80rpx;
 }
-.body .body-primary-text{
-    font-size: 160rpx;
+.submit button{
+    background-color: rgb(238, 237, 237);
 }
-.body .body-button{
-    width: 50%;
+.allin{
+    width: 200rpx;
+}
+
+
+.detail-blank{
+    margin: 0 auto;
+    margin-top: 50rpx;
+    width: 90%;
+    height: 100%;
+    border-radius:15rpx;
+}
+.detail-top{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 80rpx;
+    line-height: 80rpx;
+    justify-content: space-between;
+    margin-bottom: 40rpx;
+}
+.detail-top-text{
+    font-size: 50rpx;
+    font-weight: bold;
+}
+.detail-top image{
+    width: 80rpx;
+    height: 80rpx;
+}
+
+
+.middle{
+    width: 90%;
     margin: 0 auto;
 }
-.body .body-button button{
-    margin-top: 30rpx;
+.middle-list{
+    margin: 20rpx 40rpx 30rpx 40rpx;
+}
+.first-list{
+    display: flex;
+    justify-content: space-between;
+}
+.first-list .text-one{
+    font-size: 40rpx;
+}
+.first-list .text-two{
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+.secondlist{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(154, 154, 154);
+}
+.secondlist .time{
+    font-size: 35rpx;
+}
+.secondlist .allmoney{
+    font-size: 35rpx;
+    margin-right: 10rpx;
 }

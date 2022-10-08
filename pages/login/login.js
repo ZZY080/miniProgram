@@ -7,79 +7,77 @@ Page({
     data: {
         username: '',
         password: '',
-        clientHeight:''
-      },
-
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad(options) {
+        token:''
+    },
+    getUsernameInput(e) {
+        this.username = e.detail.value;
+    },
+    getPasswordInput(e) {
+        this.password = e.detail.value;
+    },
+    goadmin() {
+        let that = this;
+        // 不为空判断
+        if (!this.username || !this.password) {
+            wx.showToast({
+                title: '请输入账号或密码',
+                icon: 'none',
+                duration: 2000
+            })
+        } else {
+            // 先存储用户名
+            wx.setStorage({
+                key: 'username',
+                data: this.username
+            })
+            wx.request({
+                url: 'https://api.cp.akagiyui.com/user/login',
+                method: "post",
+                header: {
+                    "Content-Type": "application/json;charset=UTF-8"
+                },
+                data: {
+                    "username": this.username,
+                    "password": this.password
+                },
+                success: function (res) {
+                    if (res.data.code == 200) {
+                        that.setData({
+                            token:res.data.data
+                        })
+                        // 设置token
+                        wx.setStorage({
+                            key:'token',
+                            data:that.data.token
+                        })
+                        wx.getUserProfile({
+                            desc: "用于获取头像",
+                            success: (res) => {
+                                wx.setStorage({
+                                    key: 'avatar',
+                                    data: res.userInfo.avatarUrl
+                                })
+                            }
+                        });
+                        wx.switchTab({
+                            url: "../index/index"
+                        })
+                    } else {
+                        wx.showToast({
+                            title: '输入的账号或密码错误',
+                            icon: 'none',
+                            duration: 2000
+                        })
+                    }
+                },
+            })
+        }
 
     },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload() {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh() {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom() {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage() {
-
-    },
-    goadmin(){
-        wx.request({
-          url: 'http://39.98.123.211:8510/admin/product/test/read',
-          method:"get",
-          data:{
-            "name":"james",
-            "password":"123456"
-          },
-          success: function (res) {
-            console.log(res.data);
-            wx.switchTab({
-            url: "../index/index"
-                })
-            },
+    // 前往注册
+    goRegister() {
+        wx.navigateTo({
+            url: '../register/index',
         })
-        
     }
 })

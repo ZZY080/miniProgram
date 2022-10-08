@@ -1,0 +1,49 @@
+page{
+    height: 100%;
+}
+
+.blank{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    padding-top: 100rpx;
+}
+.title{
+    font-size: 80rpx;
+    margin-bottom: 30rpx;
+}
+
+.nickname{
+    width: 100%;
+    margin-bottom: 50rpx;
+    border: 1rpx solid rgb(240, 235, 235);
+    border-radius: 10rpx;
+}
+.nickname input{
+    font-size: 50rpx;
+    height: 100rpx;
+}
+
+.username{
+    width: 100%;
+    margin-bottom: 50rpx;
+    border: 1rpx solid rgb(240, 235, 235);
+    border-radius: 10rpx;
+}
+
+.username input{
+    height: 100rpx;
+    font-size: 50rpx;
+}
+
+.password{
+    width: 100%;
+    margin-bottom: 50rpx;
+    border: 1rpx solid rgb(240, 235, 235);
+    border-radius: 10rpx;
+}
+
+.password input{
+    height: 100rpx;
+    font-size: 50rpx;
+}

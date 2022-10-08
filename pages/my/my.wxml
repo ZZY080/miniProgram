@@ -1,7 +1,7 @@
 <view class="container more">
     <view class="user flex-wrp">
     <view class="avatar flex-item">
-      <image class="userinfo-avatar" src="../../images/icon1.jpeg" background-size="cover"></image>
+      <image class="userinfo-avatar" src='{{avatar}}' background-size="cover"></image>
     </view>
     <view class="user-info flex-item">
       <text class="userinfo-nickname">吴彦祖</text>
@@ -20,6 +20,17 @@
         <image src="../../images/jiantou.png"></image>
       </view>
     </view>
+    <view class="my-item flex-wrp" bindtap="goPayment">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/payment.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>转账</text>
+      </view>
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/jiantou.png"></image>
+      </view>
+    </view>
     <view class="my-item flex-wrp" bindtap="goBank">
       <view class="myitem-icon flex-item" >
         <image src="../../images/cards.png"></image>
@@ -31,7 +42,7 @@
         <image src="../../images/jiantou.png"></image>
       </view>
     </view>
-    <view class="my-item flex-wrp">
+    <view class="my-item flex-wrp" bindtap="goPerson">
       <view class="myitem-icon flex-item" >
         <image src="../../images/admin.png"></image>
       </view>
@@ -42,9 +53,9 @@
         <image src="../../images/jiantou.png"></image>
       </view>
     </view>
-    <view class="my-item flex-wrp">
+    <view class="my-item flex-wrp" bindtap="goSafe">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/盾牌.png"></image>
+        <image src="/images/defend.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>账号安全</text>
@@ -55,7 +66,7 @@
     </view>
     <view class="my-item flex-wrp" bindtap="goSetting">
       <view class="myitem-icon flex-item" >
-        <image src="../../images/设置.png"></image>
+        <image src="/images/setting.png"></image>
       </view>
       <view class="myitem-name flex-item">
         <text>设置</text>

@@ -6,11 +6,11 @@
                 <text class="box-text-item">二维码收款</text>
             </view>
             <view class="box-image">
-                <image src="../../../images/二维码.png"></image>
+                <image src="../../../images/221.png"></image>
             </view>
             <view class="box-button">
                 <view class="button-one">
-                    <button type='warn'>设置收款金额</button>
+                    <button type='warn' bindtap="goSetting">收款金额</button>
                 </view>
                 <view class="button-two">
                     <button type="primary">保存收款码</button>

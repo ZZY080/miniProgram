@@ -28,7 +28,7 @@
             </view>
         </view>
     </view>
-    <view class="buttom">
+    <view class="buttom" bindtap="loginout">
         <view class="buttom-text">登陆其他账号</view>
         <view class="buttom-text">退出登录</view>
     </view>

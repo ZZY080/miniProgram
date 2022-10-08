@@ -1,11 +1,79 @@
-<view class="top-tab flex-wrp flex-tab " >
-  <view class="toptab flex-item active" >
-  收支概况
-  </view>
-  <view class="toptab flex-item " >
-  流水明细
-  </view>
-  <view class="toptab flex-item " >
-  账单管理
-  </view>
+
+<view class="container">
+    <view class="item">
+        <view class="topbar">
+            <view class="topbar-text">9月</view>
+            <image src="../../images/arrow-down.png"></image>
+        </view>
+        <view class="middle">
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-9-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-9-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-9-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="topbar">
+            <view class="topbar-text">8月</view>
+            <image src="../../images/arrow-down.png"></image>
+        </view>
+        <view class="middle">
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-8-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-8-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-8-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+        </view>
+    </view>
 </view>

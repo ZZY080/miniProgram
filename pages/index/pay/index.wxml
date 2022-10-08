@@ -3,14 +3,19 @@
     <view class="pay">
         <view class="pay-box">
             <view class="pay-box-top">
-                <image src="../../../images/已勾选40.png"></image>
                 <view class="pay-box-top-text">向商家付款</view>
-                <view class="dot">更多</view>
             </view>
             <view class="qrcode">
-                <image src="../../../images/二维码.png"></image>
+                <image src="data:image/png;base64,{{imgUrl}}"></image>
             </view>
-            
+            <view class="tab-item">
+                <image src="../../../images/money.png"></image>
+                <view class="text-item">
+                    <view class="text-top">余额</view>
+                    <view class="text-buttom">优先使用此方式付款</view>
+                </view>
+                <image src="../../../images/arrow-down.png"></image>
+            </view>
         </view>
     </view>
 </view>

@@ -1,23 +1,48 @@
-.container{
-    height: 1500rpx;
-  }
-  .top-tab{
-    width: 750rpx;
+.topbar{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20rpx;
+    border-bottom: 1px solid #888;
+}
+.topbar-text{
+    font-size: 60rpx;
     height: 100rpx;
-    background: #27B864;
-    color: #d4f8c6;
-    font-size: 28rpx;
     line-height: 100rpx;
-    box-shadow: 0 2px 2px #bebebe;
-    margin: 0 0 8rpx 0;
-    z-index: 9999;
-  }
-  .toptab.active{
-    color: #ffffff;
-    border-bottom: solid 2px #ffffff;
-  }
+    font-weight: bold;
+    margin-right: 10rpx;
+    margin-left: 40rpx;
+}
+.topbar image{
+    margin-top: 25rpx;
+    width:50rpx;
+    height: 50rpx;
+}
 
 
+.middle-list{
+    margin: 20rpx 40rpx 30rpx 40rpx;
+}
+.first-list{
+    display: flex;
+    justify-content: space-between;
+}
+.first-list .text-one{
+    font-size: 45rpx;
+}
+.first-list .text-two{
+    font-size: 45rpx;
+    font-weight: bold;
+}
 
-
-  
+.secondlist{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(154, 154, 154);
+}
+.secondlist .time{
+    font-size: 38rpx;
+}
+.secondlist .allmoney{
+    font-size: 38rpx;
+    margin-right: 10rpx;
+}

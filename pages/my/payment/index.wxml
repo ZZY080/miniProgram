@@ -1,0 +1,37 @@
+<!--pages/index/receive/receiveMoney/index.wxml-->
+<view class="container">
+    <view class="blank-box">
+        <view class="white-box">
+            <view class="first-text">
+                <view class="text-item">收款人</view>
+            </view>
+            <view class="second-text">
+                <view class="item-input-two">
+                    <input type="text"  class="inputtext-two" model:value="{{username}}" bindinput="getName"/>
+                </view>
+            </view>
+            <view class="first-text">
+                <view class="text-item">设置转账金额</view>
+            </view>
+            <view class="second-text">
+                <view class="goat">￥</view>
+                <view class="item-input">
+                    <input type="number"  class="inputtext" model:value="{{money}}" bindinput="getMoney"/>
+                </view>
+            </view>
+            <view class="first-text">
+                <view class="text-item">备注</view>
+            </view>
+            <view class="second-text">
+                <view class="textarea-item">
+                    <textarea name="" placeholder="请输入备注" model:value="{{text}}" bindinput="getText"></textarea>
+                </view>
+            </view>
+        </view>
+        <view class="last-button">
+            <button type="primary" bindtap="startMoney">确定</button>
+        </view>
+    </view>
+    
+</view>
+

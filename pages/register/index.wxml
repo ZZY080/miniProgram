@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="blank">
+        <view class="title">注册</view>
+        <view class="nickname">
+            <input placeholder="请输入昵称" type="text" model:value="{{nickname}}" bindinput="getSearchInput"></input>
+        </view>
+        <view class="username">
+            <input placeholder="请输入账号" type="text" model:value="{{username}}" bindinput="getUsernameInput"></input>
+        </view>
+        <view class="password">
+            <input placeholder="请输入密码" type="password" model:value="{{password}}" bindinput="getPasswordInput"></input>
+        </view>
+        <view class="register">
+            <button type="primary" bindtap="register">注册</button>
+        </view>
+    </view>
+</view>

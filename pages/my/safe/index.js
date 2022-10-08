@@ -1,4 +1,4 @@
-// pages/index/receive/index.js
+// pages/my/safe/index.js
 Page({
 
     /**
@@ -62,10 +62,5 @@ Page({
      */
     onShareAppMessage() {
 
-    },
-    goSetting(){
-        wx.navigateTo({
-          url: '../receive/receiveMoney/index',
-        })
     }
 })

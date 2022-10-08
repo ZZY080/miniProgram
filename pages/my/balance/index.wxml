@@ -1,17 +1,61 @@
-<!--pages/my/balance/index.wxml-->
+<!--pages/my/bank/index.wxml-->
 <view class="container">
-    <!-- <view class="topbar">
-        <image src="../../../images/返回箭头.png" bindtap="goback"></image>
-        <view class="topbar-text">零钱明细</view>
-    </view> -->
-    <view class="body">
-        <view class="body-primary">
-            <image src="../../../images/money.png"></image>
-            <view class="body-primary-text">$11225</view>
+    <view class="green-blank">
+        <view class="green-blank-text">我的银行卡</view>
+        <view class="white-blank">
+            <view class="top-item">
+                <view class="top-item-text">可用余额</view>
+                <image src="../../../images/money.png"></image>
+            </view>
+            <view class="middle-item">{{balance}}.00</view>
+            <view class="buttom">
+                <view class="submit">
+                    <button >提现</button>
+                </view>
+                <view class="allin">
+                    <button type="primary" bindtap="goAddMoney">充值</button>
+                </view>
+            </view>
         </view>
-        <view class="body-button">
-            <button type="primary">提现</button>
-            <button>充值</button>
+        <view class="detail-blank">
+            <view class="detail-top">
+                <view class="detail-top-text">余额变动明细</view>
+                <image src="../../../images/jiantou.png"></image>
+            </view>
+            <view class="middle">
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-9-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-9-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
+            <view class="middle-list">
+                <view class="first-list">
+                    <text class="text-one">余额提现-到XX银行</text>
+                    <text class="text-two">-10.00</text>
+                </view>
+                <view class="secondlist">
+                    <text class="time">2022-9-31 00:00:00</text>
+                    <text class="allmoney">余额20.00</text>
+                </view>
+            </view>
         </view>
+        </view>
+        
     </view>
+    
 </view>
